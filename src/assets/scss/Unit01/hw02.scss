@@ -1,0 +1,63 @@
+.container {
+  padding-top: 3rem;
+  max-width: 300px;
+  width: 100%;
+  margin: 100px auto;
+  height: 330px;
+  background: #2c2c2c;
+  border: 1px solid #2c2c2c;
+  border-radius: 15px;
+  #result {
+    height: 60px;
+    padding-right: 15px;
+    text-align: right;
+    font-size: 1.8rem;
+    color: white;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+
+  .calculate {
+    background:  #2c2c2c;
+    table{
+      width: 100%;
+      margin-top: -5px;
+      tr {
+
+        .btn {
+          border: 1px solid black;
+          border-radius: 10px;
+          width: 71px;
+          padding: 10px;
+          font-size: 1.5rem;
+          color: white;
+          background: #626262;
+          outline: none;
+          cursor: pointer;
+        }
+        .number0 {
+          width: 100%;
+        }
+        .first-row {
+          background: #383838;
+        }
+        .last-col {
+          background: #f19b16;
+        }
+        .btn:active {
+          border-radius: 10%;
+          background: #8a8a8a;
+          cursor: pointer;
+        }
+        .btn:hover {
+          background: #8a8a8a;
+          cursor: pointer;
+        }
+        .last-col:hover {
+          background: #f1b227;
+        }
+      }
+    }
+  }
+}

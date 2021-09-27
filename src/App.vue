@@ -4,7 +4,8 @@
 <!--    <HelloWorld />-->
 
     <hw01/>
-    
+    <hw02/>
+
   </div>
 </template>
 
@@ -12,11 +13,13 @@
 // import HelloWorld from './components/HelloWorld.vue'
 
 import hw01 from "./components/exercises/unit01/hw01";
+import hw02 from "./components/exercises/unit01/hw02";
 
 export default {
   name: 'App',
   components: {
     hw01,
+    hw02,
   }
 }
 </script>
