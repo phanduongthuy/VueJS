@@ -2,13 +2,17 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
 <!--    <HelloWorld />-->
+
     <hw01/>
+    
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+
 import hw01 from "./components/exercises/unit01/hw01";
+
 export default {
   name: 'App',
   components: {
