@@ -14,7 +14,8 @@
 <!--    <Page2/>-->
 <!--    <Ex2_1></Ex2_1>-->
 <!--    <Ex2_2></Ex2_2>-->
-    <Todo></Todo>
+<!--    <Todo></Todo>-->
+        <Exercise></Exercise>
 <!--    <NewsDetailPage></NewsDetailPage>-->
 <!--    <ProductPage></ProductPage>-->
   </div>
@@ -36,7 +37,8 @@
 // import Page2 from "./components/lessons/Unit04/Page2";
 // import Ex2_1 from "./components/exercises/Unit02/Ex2_1";
 // import Ex2_2 from "./components/exercises/Unit02/Ex2_2";
-import Todo from "./components/exercises/Unit03/Ex3_1/Todo";
+// import Todo from "./components/exercises/Unit03/Ex3_1/Todo";
+import Exercise from "./components/exercises/Unit03/Ex3_2/Exercise";
 // import NewsDetailPage from "./components/exercises/Unit04/Ex4.2/NewsDetailPage";
 //  import ProductPage from "./components/exercises/Unit04/Ex4.1/ProductPage";
 export default {
@@ -50,7 +52,8 @@ export default {
     // Page2,
     // Ex2_1
     // Ex2_2
-    Todo
+    // Todo
+    Exercise
     // NewsDetailPage
     // ProductPage
   }
