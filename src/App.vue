@@ -12,8 +12,8 @@
 <!--    <Page1/>-->
 <!--    <hr width="50%">-->
 <!--    <Page2/>-->
-    <Ex2_1></Ex2_1>
-<!--    <Ex2_2></Ex2_2>-->
+<!--    <Ex2_1></Ex2_1>-->
+    <Ex2_2></Ex2_2>
 <!--    <Todo></Todo>-->
 <!--    <NewsDetailPage></NewsDetailPage>-->
 <!--    <ProductPage></ProductPage>-->
@@ -34,8 +34,8 @@
 // import menu1 from "./components/lessons/Unit04/menu1";
 // import Page1 from "./components/lessons/Unit04/Page1";
 // import Page2 from "./components/lessons/Unit04/Page2";
-import Ex2_1 from "./components/exercises/Unit02/Ex2_1";
-// import Ex2_2 from "./components/exercises/Unit02/Ex2_2";
+// import Ex2_1 from "./components/exercises/Unit02/Ex2_1";
+import Ex2_2 from "./components/exercises/Unit02/Ex2_2";
 // import Todo from "./components/exercises/Unit03/Todo";
 // import NewsDetailPage from "./components/exercises/Unit04/Ex4.2/NewsDetailPage";
 //  import ProductPage from "./components/exercises/Unit04/Ex4.1/ProductPage";
@@ -48,8 +48,8 @@ export default {
     // menu1,
     // Page1,
     // Page2,
-    Ex2_1
-    // Ex2_2
+    // Ex2_1
+    Ex2_2
     // Todo
     // NewsDetailPage
     // ProductPage
