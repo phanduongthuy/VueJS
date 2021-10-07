@@ -1,0 +1,37 @@
+//start banner
+.el-carousel__item {
+  .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+  }
+
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+  }
+  .image-carousel {
+    width: 100%;
+    height: 100%;
+  }
+}
+// end banner
+
+// start left content
+
+
+// end left content
+
+
+// start center content
+.breadcrumb {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.blog-content {
+  width: 97%;
+  text-align: left;
+  padding: 10px;
+  .cpslazy{
+    width: 100%;
+  }
+}
+
+// end center content

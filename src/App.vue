@@ -13,8 +13,8 @@
 <!--    <hr width="50%">-->
 <!--    <Page2/>-->
 <!--    <Ex2_2></Ex2_2>-->
-<!--    <NewsDetailPage></NewsDetailPage>-->
-    <ProductPage></ProductPage>
+    <NewsDetailPage></NewsDetailPage>
+<!--    <ProductPage></ProductPage>-->
   </div>
 </template>
 
@@ -33,8 +33,8 @@
 // import Page1 from "./components/lessons/Unit04/Page1";
 // import Page2 from "./components/lessons/Unit04/Page2";
 // import Ex2_2 from "./components/exercises/Unit02/Ex2_2";
-// import NewsDetailPage from "./components/exercises/Unit04/Ex4.2/NewsDetailPage";
- import ProductPage from "./components/exercises/Unit04/Ex4.1/ProductPage";
+import NewsDetailPage from "./components/exercises/Unit04/Ex4.2/NewsDetailPage";
+ // import ProductPage from "./components/exercises/Unit04/Ex4.1/ProductPage";
 export default {
   name: 'App',
   components: {
@@ -45,8 +45,8 @@ export default {
     // Page1,
     // Page2,
     // Ex2_2
-    // NewsDetailPage
-    ProductPage
+    NewsDetailPage
+    // ProductPage
   }
 }
 </script>
